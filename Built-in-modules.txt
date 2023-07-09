@@ -1,0 +1,12 @@
+OS
+-operating system
+-provides properties and methods for interacting with
+server and os
+PATH
+-manage file paths
+FS 
+-asynchronous
+-non-blocking
+-synchronous
+HTTP
+-sets up http server

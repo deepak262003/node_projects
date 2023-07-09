@@ -1,0 +1,20 @@
+- code repository for node
+- modules developed by various developers are available here
+- it allows reuse our own code in some other projects
+- it allows installing code from repository and use in our project
+- share our solutions in npm
+
+Terminology 
+- reusable code - package - a folder containing javascript code
+- modules 
+- dependency
+
+global dependency - npm install -g <package>
+local dependency - npm i <package>
+
+package.json - manifest file (stores info about project and package)
+manual approach - create package.json and add properties
+default approach - npm init -y
+
+#In order to install a local package , the package needs to be stored as a dependency
+#All of the dependencies are stored in node_modules folder

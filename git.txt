@@ -1,0 +1,8 @@
+.gitignore -file for ignoring unwanted folders by source control
+- initializing git repo - #git init
+
+-Add your project files to the Git repository. You can either add individual files or add all files in the current directory recursively:
+
+#git add .    // Add all files recursively
+#git add file1.js file2.js    // Add individual files
+
