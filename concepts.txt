@@ -1,0 +1,9 @@
+- event loop
+- async patterns
+- events emitter
+- streams
+
+event loop
+- allows node.js to perform non-blocking io despite js is single-threaded
+- it works by offloading operations in system kernel
+- javascript is synchronous and single threaded

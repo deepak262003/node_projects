@@ -1,0 +1,29 @@
+
+#heap - memory allocation
+#stack - stack frames
+
+- event loop
+- callback queue
+
+- call stack
+  javascript - single threaded - one call stack - one thing at a time
+  entering a function - push into stack
+  step out of function - pop out of stack
+
+#blocking - slow functions are snippets that exists in stack
+
+- asynchronous callbacks
+  run some code
+  assign it a callback 
+  run that callback later
+  if a function is slower , it allows the function to process and processes the next task
+  and when the function complete its process , it gets executed
+
+- concurrency and event loop
+  setTimeout - api provided by browser
+  (webapis) process the function in background 
+  the subsequent functions are pushed into the (task queue) or (callback queue)
+  
+  #event loops works in between webapi stack and callback queue
+  #if stack is empty , callback queue takes first in queue and pushes into the stack
+  

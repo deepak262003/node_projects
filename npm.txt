@@ -18,3 +18,16 @@ default approach - npm init -y
 
 #In order to install a local package , the package needs to be stored as a dependency
 #All of the dependencies are stored in node_modules folder
+
+
+In Node.js and npm , dev dependencies refer to the packages that are necessary during the development and testing of a project 
+but are not required in the production environment.
+
+- Dev dependencies typically include tools, libraries, or testing frameworks that help with tasks such as code linting, unit testing, building, and development workflow. 
+- They are used by developers to improve productivity and ensure code quality during the development process.
+- Dev dependencies are specified in the devDependencies section of the package.json file for a Node.js project. 
+# run npm install with the --dev or -D flag, npm installs only the dependencies specified in the devDependencies section.
+
+script property is used to add some commands
+
+#npm uninstall <package name> - to uninstall packages

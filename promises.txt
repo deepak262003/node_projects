@@ -1,0 +1,35 @@
+- convert callback to promises
+- create promises
+- how to use promises
+- different phases of promises
+- Error handling
+- chain multiple promises
+
+promise is made between two things
+ # the function that makes the promise - maker
+ - creates a promise object and returns it
+ # the function that accepts the promise - receiver
+ - uses the object
+
+ promise maker
+ #getWeather =()={
+ #   return new Promise(function(resolve , ){
+ #   setTimeout(function(){      })
+ # });
+ #}
+ - promise is the temperory object given as response to the receiver about the ongoing process
+ - after promise is resolved by returning the actual object
+ - it is immediate object returned indicating there are more objects to receive
+ - promise object takes a function that contains the async logic
+ - the function accepts 2 parameters
+     # resolve
+       it is used when promise is successfully resolved or fulfilled
+     # reject 
+       it is used when promise is not resolved 
+     # default 
+       it is in pending state - waiting
+
+- then() is used to call a callback after the promise is resolved
+- it has two callback functions as parameters, one for resolve , another for reject
+- the callback accepts data as arguement , which is the variable that holds the resolved data
+- (data)=>{ }

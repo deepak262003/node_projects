@@ -6,3 +6,23 @@
 #git add .    // Add all files recursively
 #git add file1.js file2.js    // Add individual files
 
+-Commit the changes with a descriptive commit message:
+
+#git commit -m "Initial commit"
+- In Git, the -m flag is used with the git commit command to specify a commit message directly on the command line.
+
+Create a new repository on a Git hosting service, such as GitHub, GitLab, or Bitbucket.
+ Follow the instructions provided by the hosting service to create an empty repository.
+
+ Set the remote repository URL as the origin for your local repository:
+
+ #git remote add origin <repository-url>
+ - In Git, a remote is a reference to a remote repository. 
+ - A remote repository is a version of your Git repository that is hosted on a different machine or server.
+ - In Git, "origin" is a common naming convention for the default remote repository.
+
+ Push the commits to the remote repository:
+
+#git push -u origin master
+- In Git, the -u flag is used with the git push command to set the upstream branch for the current branch. 
+- It associates the current branch with a remote branch and sets it as the default remote branch for future git push commands.
